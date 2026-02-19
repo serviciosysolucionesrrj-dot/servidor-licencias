@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Aquí agregas las licencias permitidas
 LICENCIAS = {
-    "ID_EQUIPO_AQUI": {
+    "48d61a14105b4d4d5299e182afcd772aeff18a8245e6faeeb54e452f6f7f0c56": {
         "expira": "2026-12-31",
         "activa": True
     }
@@ -37,3 +37,4 @@ def validar():
 
 if __name__ == "__main__":
     app.run()
+
